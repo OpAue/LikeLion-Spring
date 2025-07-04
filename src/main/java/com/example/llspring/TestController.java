@@ -1,6 +1,5 @@
 package com.example.llspring;
 
-// TestController 클래스
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,5 +13,4 @@ public class TestController {
     public String test() {
         return "스프링부트 서버 테스트";
     }
-
 }

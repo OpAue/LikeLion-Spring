@@ -3,6 +3,6 @@ spring:
     name: LL-spring
 
   datasource:
-    url: likelion-database.cluwsicaobn4.ap-northeast-2.rds.amazonaws.com
+    url: jdbc:mysql://likelion-database.cluwsicaobn4.ap-northeast-2.rds.amazonaws.com:3306/likelion
     username: likelion
     password: '1q2w3e4r'
